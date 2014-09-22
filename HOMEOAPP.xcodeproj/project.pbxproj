@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87735A9219CBD38F000F38DE /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87735A8F19CBD38F000F38DE /* AcousticModelEnglish.bundle */; };
+		87735A9319CBD38F000F38DE /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87735A9019CBD38F000F38DE /* OpenEars.framework */; };
+		87735A9419CBD38F000F38DE /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87735A9119CBD38F000F38DE /* Slt.framework */; };
+		87735A9619CBD3A0000F38DE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87735A9519CBD3A0000F38DE /* AVFoundation.framework */; };
+		87735A9819CBD3A8000F38DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87735A9719CBD3A8000F38DE /* AudioToolbox.framework */; };
 		87EE22C419CBC5BA00F4B2D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EE22C319CBC5BA00F4B2D3 /* Foundation.framework */; };
 		87EE22C619CBC5BA00F4B2D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EE22C519CBC5BA00F4B2D3 /* CoreGraphics.framework */; };
 		87EE22C819CBC5BA00F4B2D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EE22C719CBC5BA00F4B2D3 /* UIKit.framework */; };
@@ -34,23 +39,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		87EE22C019CBC5BA00F4B2D3 /* HOMEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOMEO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87735A8F19CBD38F000F38DE /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AcousticModelEnglish.bundle; path = ../../../Downloads/OpenEarsDistribution/sample/AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		87735A9019CBD38F000F38DE /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenEars.framework; path = ../../../Downloads/OpenEarsDistribution/sample/OpenEars.framework; sourceTree = "<group>"; };
+		87735A9119CBD38F000F38DE /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Slt.framework; path = ../../../Downloads/OpenEarsDistribution/sample/Slt.framework; sourceTree = "<group>"; };
+		87735A9519CBD3A0000F38DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		87735A9719CBD3A8000F38DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		87EE22C019CBC5BA00F4B2D3 /* HOMEOAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOMEOAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EE22C319CBC5BA00F4B2D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87EE22C519CBC5BA00F4B2D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		87EE22C719CBC5BA00F4B2D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		87EE22CB19CBC5BA00F4B2D3 /* HOMEO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HOMEO-Info.plist"; sourceTree = "<group>"; };
+		87EE22CB19CBC5BA00F4B2D3 /* HOMEOAPP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HOMEOAPP-Info.plist"; sourceTree = "<group>"; };
 		87EE22CD19CBC5BA00F4B2D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87EE22CF19CBC5BA00F4B2D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		87EE22D119CBC5BA00F4B2D3 /* HOMEO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HOMEO-Prefix.pch"; sourceTree = "<group>"; };
+		87EE22D119CBC5BA00F4B2D3 /* HOMEOAPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HOMEOAPP-Prefix.pch"; sourceTree = "<group>"; };
 		87EE22D219CBC5BA00F4B2D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87EE22D319CBC5BA00F4B2D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		87EE22D619CBC5BA00F4B2D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87EE22D819CBC5BA00F4B2D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		87EE22D919CBC5BA00F4B2D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87EE22DB19CBC5BA00F4B2D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		87EE22E119CBC5BA00F4B2D3 /* HOMEOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOMEOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EE22E119CBC5BA00F4B2D3 /* HOMEOAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOMEOAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EE22E219CBC5BA00F4B2D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		87EE22EA19CBC5BA00F4B2D3 /* HOMEOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HOMEOTests-Info.plist"; sourceTree = "<group>"; };
+		87EE22EA19CBC5BA00F4B2D3 /* HOMEOAPPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HOMEOAPPTests-Info.plist"; sourceTree = "<group>"; };
 		87EE22EC19CBC5BA00F4B2D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87EE22EE19CBC5BA00F4B2D3 /* HOMEOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOMEOTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,9 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87735A9819CBD3A8000F38DE /* AudioToolbox.framework in Frameworks */,
+				87735A9619CBD3A0000F38DE /* AVFoundation.framework in Frameworks */,
+				87735A9419CBD38F000F38DE /* Slt.framework in Frameworks */,
 				87EE22C619CBC5BA00F4B2D3 /* CoreGraphics.framework in Frameworks */,
 				87EE22C819CBC5BA00F4B2D3 /* UIKit.framework in Frameworks */,
 				87EE22C419CBC5BA00F4B2D3 /* Foundation.framework in Frameworks */,
+				87735A9319CBD38F000F38DE /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +106,8 @@
 		87EE22C119CBC5BA00F4B2D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87EE22C019CBC5BA00F4B2D3 /* HOMEO.app */,
-				87EE22E119CBC5BA00F4B2D3 /* HOMEOTests.xctest */,
+				87EE22C019CBC5BA00F4B2D3 /* HOMEOAPP.app */,
+				87EE22E119CBC5BA00F4B2D3 /* HOMEOAPPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +115,11 @@
 		87EE22C219CBC5BA00F4B2D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87735A9719CBD3A8000F38DE /* AudioToolbox.framework */,
+				87735A9519CBD3A0000F38DE /* AVFoundation.framework */,
+				87735A8F19CBD38F000F38DE /* AcousticModelEnglish.bundle */,
+				87735A9019CBD38F000F38DE /* OpenEars.framework */,
+				87735A9119CBD38F000F38DE /* Slt.framework */,
 				87EE22C319CBC5BA00F4B2D3 /* Foundation.framework */,
 				87EE22C519CBC5BA00F4B2D3 /* CoreGraphics.framework */,
 				87EE22C719CBC5BA00F4B2D3 /* UIKit.framework */,
@@ -126,10 +145,10 @@
 		87EE22CA19CBC5BA00F4B2D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				87EE22CB19CBC5BA00F4B2D3 /* HOMEO-Info.plist */,
+				87EE22CB19CBC5BA00F4B2D3 /* HOMEOAPP-Info.plist */,
 				87EE22CC19CBC5BA00F4B2D3 /* InfoPlist.strings */,
 				87EE22CF19CBC5BA00F4B2D3 /* main.m */,
-				87EE22D119CBC5BA00F4B2D3 /* HOMEO-Prefix.pch */,
+				87EE22D119CBC5BA00F4B2D3 /* HOMEOAPP-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +165,7 @@
 		87EE22E919CBC5BA00F4B2D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				87EE22EA19CBC5BA00F4B2D3 /* HOMEOTests-Info.plist */,
+				87EE22EA19CBC5BA00F4B2D3 /* HOMEOAPPTests-Info.plist */,
 				87EE22EB19CBC5BA00F4B2D3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87EE22BF19CBC5BA00F4B2D3 /* HOMEO */ = {
+		87EE22BF19CBC5BA00F4B2D3 /* HOMEOAPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87EE22F219CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEO" */;
+			buildConfigurationList = 87EE22F219CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEOAPP" */;
 			buildPhases = (
 				87EE22BC19CBC5BA00F4B2D3 /* Sources */,
 				87EE22BD19CBC5BA00F4B2D3 /* Frameworks */,
@@ -167,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = HOMEO;
+			name = HOMEOAPP;
 			productName = HOMEO;
-			productReference = 87EE22C019CBC5BA00F4B2D3 /* HOMEO.app */;
+			productReference = 87EE22C019CBC5BA00F4B2D3 /* HOMEOAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		87EE22E019CBC5BA00F4B2D3 /* HOMEOTests */ = {
+		87EE22E019CBC5BA00F4B2D3 /* HOMEOAPPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87EE22F519CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEOTests" */;
+			buildConfigurationList = 87EE22F519CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEOAPPTests" */;
 			buildPhases = (
 				87EE22DD19CBC5BA00F4B2D3 /* Sources */,
 				87EE22DE19CBC5BA00F4B2D3 /* Frameworks */,
@@ -185,9 +204,9 @@
 			dependencies = (
 				87EE22E719CBC5BA00F4B2D3 /* PBXTargetDependency */,
 			);
-			name = HOMEOTests;
+			name = HOMEOAPPTests;
 			productName = HOMEOTests;
-			productReference = 87EE22E119CBC5BA00F4B2D3 /* HOMEOTests.xctest */;
+			productReference = 87EE22E119CBC5BA00F4B2D3 /* HOMEOAPPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 87EE22BB19CBC5BA00F4B2D3 /* Build configuration list for PBXProject "HOMEO" */;
+			buildConfigurationList = 87EE22BB19CBC5BA00F4B2D3 /* Build configuration list for PBXProject "HOMEOAPP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87EE22BF19CBC5BA00F4B2D3 /* HOMEO */,
-				87EE22E019CBC5BA00F4B2D3 /* HOMEOTests */,
+				87EE22BF19CBC5BA00F4B2D3 /* HOMEOAPP */,
+				87EE22E019CBC5BA00F4B2D3 /* HOMEOAPPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87EE22DC19CBC5BA00F4B2D3 /* Images.xcassets in Resources */,
+				87735A9219CBD38F000F38DE /* AcousticModelEnglish.bundle in Resources */,
 				87EE22CE19CBC5BA00F4B2D3 /* InfoPlist.strings in Resources */,
 				87EE22D719CBC5BA00F4B2D3 /* Main.storyboard in Resources */,
 			);
@@ -268,7 +288,7 @@
 /* Begin PBXTargetDependency section */
 		87EE22E719CBC5BA00F4B2D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 87EE22BF19CBC5BA00F4B2D3 /* HOMEO */;
+			target = 87EE22BF19CBC5BA00F4B2D3 /* HOMEOAPP */;
 			targetProxy = 87EE22E619CBC5BA00F4B2D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -376,10 +396,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bizan07/Downloads/OpenEarsDistribution/sample,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HOMEO/HOMEO-Prefix.pch";
-				INFOPLIST_FILE = "HOMEO/HOMEO-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HOMEO/HOMEOAPP-Prefix.pch";
+				INFOPLIST_FILE = "HOMEO/HOMEOAPP-Info.plist";
+				PRODUCT_NAME = HOMEOAPP;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +413,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bizan07/Downloads/OpenEarsDistribution/sample,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HOMEO/HOMEO-Prefix.pch";
-				INFOPLIST_FILE = "HOMEO/HOMEO-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HOMEO/HOMEOAPP-Prefix.pch";
+				INFOPLIST_FILE = "HOMEO/HOMEOAPP-Info.plist";
+				PRODUCT_NAME = HOMEOAPP;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +440,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HOMEOTests/HOMEOTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HOMEOTests/HOMEOAPPTests-Info.plist";
+				PRODUCT_NAME = HOMEOAPPTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +458,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HOMEO/HOMEO-Prefix.pch";
-				INFOPLIST_FILE = "HOMEOTests/HOMEOTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HOMEOTests/HOMEOAPPTests-Info.plist";
+				PRODUCT_NAME = HOMEOAPPTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87EE22BB19CBC5BA00F4B2D3 /* Build configuration list for PBXProject "HOMEO" */ = {
+		87EE22BB19CBC5BA00F4B2D3 /* Build configuration list for PBXProject "HOMEOAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87EE22F019CBC5BA00F4B2D3 /* Debug */,
@@ -449,21 +477,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87EE22F219CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEO" */ = {
+		87EE22F219CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEOAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87EE22F319CBC5BA00F4B2D3 /* Debug */,
 				87EE22F419CBC5BA00F4B2D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		87EE22F519CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEOTests" */ = {
+		87EE22F519CBC5BA00F4B2D3 /* Build configuration list for PBXNativeTarget "HOMEOAPPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87EE22F619CBC5BA00F4B2D3 /* Debug */,
 				87EE22F719CBC5BA00F4B2D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
